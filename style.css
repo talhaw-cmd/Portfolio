@@ -214,9 +214,9 @@ a {
 
 #SecondSection {
     cursor: default;
-    margin: 0rem 0;
+    margin: -.25rem 0;
     background-color: rgb(20, 19, 19);
-    padding: 2rem 0rem;
+    padding: 3rem 0rem;
     border-radius: 2rem;
 }
 
