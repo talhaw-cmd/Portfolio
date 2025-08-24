@@ -23,8 +23,8 @@
     }
 
     .circle {
-      width: 18px;
-      height: 18px;
+      width: 10px;
+      height: 10px;
       background: red;
       border-radius: 50%;
       animation: bounce 0.8s infinite alternate;
@@ -43,7 +43,7 @@
     /* Text animation */
     .loading-text {
       margin-top: 25px;
-      font-size: 16px;
+      font-size: 14px;
       color: white;
       letter-spacing: 2px;
       text-transform: uppercase;
@@ -56,12 +56,12 @@
     }
 
     /* Main page hidden initially */
-    .content {
+    /* .content {
       display: none;
       color: white;
       text-align: center;
       padding: 40px;
-    }
+    } */
 
 body {
     background-color: rgb(12, 12, 12);
