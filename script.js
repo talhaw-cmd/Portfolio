@@ -1,3 +1,14 @@
+    // Jab pura page load ho jaye
+    window.onload = function() {
+      let preloader = document.getElementById('preloader');
+      let content = document.querySelector('.content');
+
+      preloader.style.opacity = "0";
+      setTimeout(() => {
+        preloader.style.display = "none";
+        content.style.display = "block";
+      }, 500);
+    };
 let item = document.getElementById('item');
 let Pitem = document.getElementById('Pitem');
 let Pitem1 = document.getElementById('Pitem-ul');
